@@ -1,11 +1,31 @@
 from cookie_clicker import CookieClicker as cc
-
-clicker = cc()
-
-while True:
-    cc.buy_upgrades()
+import time
 
 
+# clicker = cc()
+
+# while True:
+#     time.sleep(5)
+#     cc.buy_upgrades()
+
+# def countdown(seconds=10):
+#     while seconds:
+#         mins, secs = divmod(seconds, 60)
+#         timer = '{:02d}:{:02d}'.format(mins, secs)
+#         print(timer, end="\r")
+#         time.sleep(1)
+#         seconds -= 1
+#
+# #         print(f"You have collected -> {cc.get_balance} cookies in 5 minutes\nCookies per second -> {cc.get_cookies_per_s}")
+#         return cc.stop_clicks()
+# @countdown
+# def launch():
+#     clicker = cc()
+
+
+
+if __name__ == "__main__":
+    clicker = cc()
 
 # # timer part
 # program_end = datetime.datetime.now() + timedelta(seconds=300)
