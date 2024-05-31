@@ -1,0 +1,1 @@
+Play Orteil's Cookie Clicker classic automatically with the use of Selenium (https://orteil.dashnet.org/experiments/cookie/)
